@@ -43,7 +43,7 @@ header {
 }
 
 .text-secondary {
-    color: lighten(color(secondary), 19);
+    color: color(secondary);
 }
 
 main {
@@ -161,6 +161,7 @@ main {
     padding: 0.5rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
 
     &:hover {
         background: color(secondary);
@@ -172,12 +173,14 @@ main {
     @extend .btn;
     background: darken(color(primary), 50);
     color: #ffffff;
+    @include easeOut;
 }
 
 .btn-light {
     @extend .btn;
     background: lighten(color(primary), 50);
     color: #333333;
+    @include easeOut;
 }
 
 #main-footer {
