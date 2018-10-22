@@ -1,0 +1,22 @@
+{
+  "name": "devpoole.github.io",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "/dist/index.html",
+  "scripts": {
+    "scss": "node-sass --watch scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevPoole/devpoole.github.io.git"
+  },
+  "author": "Jake Barrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevPoole/devpoole.github.io/issues"
+  },
+  "homepage": "https://github.com/DevPoole/devpoole.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}

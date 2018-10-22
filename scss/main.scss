@@ -43,7 +43,7 @@ header {
 }
 
 .text-secondary {
-    color: color(secondary);
+    color: lighten(color(secondary), 19);
 }
 
 main {
